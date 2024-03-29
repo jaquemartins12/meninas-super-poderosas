@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    padding: 8vh;
+    background: #cc3478
+}
+
+.menu-header {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.menu-header ul {
+    display: flex;
+}
+.menu-header li {
+    margin-left: 10px;
+    
+}
+.menu-header li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.menu-header li a:hover {
+    transition: 0.9s;
+  color: rgb(63, 0, 29);
+}
+
+#sessao1 {
+    padding: 10rem;   
+    background: linear-gradient(180deg, rgba(255,155,255,1) 42%, rgba(255,52,184,0.8743872549019608) 100%);
+}
+
+#sessao1 h1 {
+    font-size: 2.5em;
+    color: #e90069
+}
+
+#sessao1 p {
+    font-size: 2.6em;
+    margin: 20px 0;
+    color: #e90069ab;
+}
+
+#sessao1 button {
+    padding: 20px;
+    border-radius: 70px;
+    background-color: pink;
+    width: 20em;
+    border-color: #e900696e;
+    color: deeppink;
+    cursor: pointer;
+}
+
+#sessao1 button:hover {
+    background-color: #e90069;
+    color: pink;
+    border-color: pink;
+    transition: 0.9s
+}
+
+#app {
+    padding: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+#app p{
+    font-size: 2rem;
+    color: rgb(230, 68, 95);
+    text-align: center;
+}
+
+#app button {
+    padding: 20px;
+    border-radius: 70px;
+    background-color: white;
+    width: 20em;
+    border-color: #e900696e;
+    color: deeppink;
+    cursor: pointer;
+    margin-left: 80px;
+}
+#app button:hover {
+    background-color: #e90069;
+    color: pink;
+    border-color: pink;
+    transition: 0.9s; 
+}
+
+#app img {
+    border-radius: 12px;
+    margin-top: -100px;
+    width: 20vw;
+}
+
+/*.color1 { #efcc2f };
+.color2 { #fc7cac };
+.color3 { #7b6609 };
+.color4 { #54ac64 };
+.color5 { #adcdd3 };*/

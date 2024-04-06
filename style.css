@@ -24,10 +24,12 @@ header {
 .menu-header ul {
     display: flex;
 }
+
 .menu-header li {
     margin-left: 10px;
-    
+
 }
+
 .menu-header li a {
     text-decoration: none;
     font-size: 1.5rem;
@@ -36,12 +38,12 @@ header {
 
 .menu-header li a:hover {
     transition: 0.9s;
-  color: rgb(63, 0, 29);
+    color: rgb(63, 0, 29);
 }
 
 #sessao1 {
-    padding: 10rem;   
-    background: linear-gradient(180deg, rgba(255,155,255,1) 42%, rgba(255,52,184,0.8743872549019608) 100%);
+    padding: 10rem;
+    background: linear-gradient(180deg, rgba(236, 134, 144, 0.514) 29%, rgba(197, 54, 61, 0.863) 100%);
 }
 
 #sessao1 h1 {
@@ -78,7 +80,8 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
-#app p{
+
+#app p {
     font-size: 2rem;
     color: rgb(230, 68, 95);
     text-align: center;
@@ -94,11 +97,12 @@ header {
     cursor: pointer;
     margin-left: 80px;
 }
+
 #app button:hover {
     background-color: #e90069;
     color: pink;
     border-color: pink;
-    transition: 0.9s; 
+    transition: 0.9s;
 }
 
 #app img {
@@ -109,7 +113,117 @@ header {
 
 #sessao3 {
     padding: 2em;
+    background-color: white;
+}
 
+#sessao3 h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(235, 39, 72);
+    margin-top: -10rem;
+    margin-bottom: 2.5rem;
+}
+
+#sessao3 p {
+    font-size: 2rem;
+    color: rgb(221, 81, 104);
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+#sessao3 button {
+    padding: 15px;
+    border-radius: 70px;
+    background-color: white;
+    width: 10em;
+    border-color: #e900696e;
+    color: deeppink;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+#sessao3 button:hover {
+    background-color: #e90069;
+    color: pink;
+    border-color: pink;
+    transition: 0.9s;
+}
+
+.line {
+    width: 65%;
+    margin: 40px auto;
+}
+
+.logo {
+    width: 40rem;
+    margin-left: 20rem;
+}
+
+#imagem-fundo {
+    padding: 10rem;
+    background: linear-gradient(180deg, rgba(236, 134, 144, 0.514) 29%, rgba(197, 54, 60, 1) 100%), url(imagens/Imagem\ de\ fundo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.familia {
+    width: 25rem;
+    height: auto;
+    margin-top: 5rem;
+    border-radius: 43.75rem;
+    margin-left: -100px;
+}
+
+#imagem-fundo h2 {
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#imagem-fundo p {
+    font-size: 2.8em;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+footer {
+    padding: 2.3rem;
+    background-color: #cc3478;
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    width: 20rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul a:hover {
+    transition: 0.9s;
+    color: rgb(63, 0, 29);
 }
 
 /*.color1 { #efcc2f };

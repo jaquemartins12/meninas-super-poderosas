@@ -88,7 +88,7 @@ header {
 }
 
 #app button {
-    padding: 20px;
+    padding: 0.8rem;
     border-radius: 70px;
     background-color: white;
     width: 20em;
@@ -231,3 +231,174 @@ footer ul a:hover {
 .color3 { #7b6609 };
 .color4 { #54ac64 };
 .color5 { #adcdd3 };*/
+
+
+
+@media screen and (max-width:480px) {
+
+
+    header {
+        padding: 5%;
+        background: #cc3478
+    }
+
+    .menu-header {
+        display: flex;
+        justify-content: end;
+        flex-wrap: wrap;
+    }
+
+    .menu-header ul {
+        display: flex;
+    }
+
+    .menu-header li {
+        margin-left: 10px;
+
+    }
+
+    .menu-header li a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .menu-header li a:hover {
+        transition: 0.9s;
+        color: rgb(63, 0, 29);
+    }
+
+    #sessao1 {
+        padding: 10%;
+        background: linear-gradient(180deg, rgba(236, 134, 144, 0.514) 29%, rgba(197, 54, 61, 0.863) 100%);
+    }
+
+    #sessao1 h1 {
+        font-size: 1.8rem;
+        color: #e90069
+    }
+
+    #sessao1 p {
+        font-size: 1.7rem;
+        color: #e90069ab;
+    }
+
+    #sessao1 button {
+        padding: 0.5rem;
+        border-radius: 70px;
+        background-color: pink;
+        width: 13em;
+        border-color: #e900696e;
+        color: deeppink;
+        cursor: pointer;
+    }
+
+    #sessao1 button:hover {
+        background-color: #e90069;
+        color: pink;
+        border-color: pink;
+        transition: 0.9s
+    }
+
+    #app {
+        padding: 30%;
+        background-color: white;
+    }
+
+    #app p {
+        font-size: 1.2rem;
+        color: rgb(230, 68, 95);
+        margin-left: -90px;
+        margin-top: -50px;
+    }
+
+    #app button {
+        padding: 0.8rem;
+        border-radius: 70px;
+        background-color: white;
+        width: 10rem;
+        height: 2.1rem;
+        border-color: #e900696e;
+        color: deeppink;
+        cursor: pointer;
+        font-size: 0.6rem;
+        margin-left: -80px;
+        margin-top: 15px;
+    }
+
+    #app button:hover {
+        background-color: #e90069;
+        color: pink;
+        border-color: pink;
+        transition: 0.9s;
+    }
+
+    #app img {
+        border-radius: 12px;
+        width: 10rem;
+        height: 15rem;
+        margin-left: 70px;
+    }
+
+    #sessao3 {
+        padding: 13%;
+    }
+
+    #sessao3 h2 {
+        font-size: 1.6rem;
+    }
+
+    #sessao3 p {
+        font-size: 1.4rem;
+        line-height: 40px;
+    }
+
+    #sessao3 a button {
+        padding: 0.3rem;
+        font-size: 0.7em;
+        margin-left: 120px;
+    }
+
+    .logo {
+        width: 20rem;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    #imagem-fundo {
+        padding: 22%;
+        display: flex;
+        gap: 20px;
+    }
+
+    #imagem-fundo div img {
+        width: 14rem;
+        height: auto;
+    }
+
+    #imagem-fundo div h2 {
+        font-size: 1.9rem;
+    }
+
+    #imagem-fundo div p {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 1.5%;
+    }
+
+    footer img {
+        width: 10rem;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    footer div {
+        margin-top: -30px;
+    }
+
+    footer div nav ul li a {
+        font-size: 0.8rem;
+    }
+}
